@@ -1,0 +1,26 @@
+.popup_modal{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(0,0,0,0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.popup_modal_img{
+    transform: scale(0);
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 50px;
+    color: aliceblue;
+    font-size: 50px;
+    cursor: pointer;
+
+}
